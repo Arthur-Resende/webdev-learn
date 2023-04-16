@@ -39,6 +39,6 @@ Template
 - CHANGELOG.md contains initial changes
 - README.md contains layout with relevant questions about the repository
 - .gitignore keeps .vscode files from reaching the repository
-- /styles folder to hold website styles with empty dark-mode.css, light-mode.css, and base-styles.css files
-- /src folder with main website pages, contains empty index.html, materias.html, and plano.html
-- /scripts folder with website script for toggling dark and light mode, contains empty scripts.js
+- dark-mode, light-mode, and base-styles css files
+- index, materias, and plano html pages
+- script for toggling dark and light mode, contains
