@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-To clone this repository, git is reccomended, [click here](https://git-scm.com/downloads) to go to the downloads website.
+To clone this repository, git is reccomended, [Download git.](https://git-scm.com/downloads)
 Once git is installed, do the following:
 
 ```
@@ -16,7 +16,7 @@ Once git is installed, do the following:
 git clone https://github.com/Arthur-Resende/webdev-learn.git
 ```
 
-Optionally, Python module http.server serves the root directory as a simple http server. [Click here](https://www.python.org/downloads/) to go to the python downloads page.
+Optionally, Python module http.server serves the root directory as a simple http server. [Download python.](https://www.python.org/downloads/)
 Once Python is installed, do the following:
 ```
 # Go to your project directory
