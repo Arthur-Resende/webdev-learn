@@ -23,10 +23,10 @@ Once Python is installed, do the following:
 cd <website-repository> # Make sure to replace <website-repository> with the path to the root directory of if this code
 
 # Serve current repository
-python3 -m http.server
+python3 -m http.server -d src
 
 # If the code above does not work, try this:
-python -m http.server
+python -m http.server -d src
 ```
 
 You should see an output similar to this:
