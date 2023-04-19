@@ -75,18 +75,32 @@
                         <span class="highlight-text">this is a highlighted text</span>
                     </div>
 
-                    <div class="card external">
-                        <!-- should be like a "block line" to be included with text -->
+                    <div class="highlight card">
+                        <!-- highlighted card links, for in-article links -->
 
-                        <span>This is a card</span>
-                        <span>this it the card description</span>
+                        <i class="fa-solid fa-link icon"></i>
+                        <span class="highlight-text">this it the card description</span>
                     </div>
                     
-                    <div class="card internal">
-                        <!-- should be like a "block" to be included in table-like structure -->
+                    <!-- block cards should stay inside a container, 3 per row -->
 
-                        <span>This is a card</span>
-                        <span>this it the card description</span>
+                    <div class="block-card-container">
+                        <!-- row of block cards -->
+
+                        <div class="highlight card block-card">
+                            <h3>Card title</h3>
+                            <span>this it the card description</span>
+                        </div>
+                        
+                        <div class="highlight card block-card">
+                            <h3>Card title</h3>
+                            <span>this it the card description</span>
+                        </div>
+
+                        <div class="highlight card block-card">
+                            <h3>Card title</h3>
+                            <span>this it the card description</span>
+                        </div>
                     </div>
                 </section>
             </article>
