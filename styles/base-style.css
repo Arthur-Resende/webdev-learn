@@ -2,9 +2,20 @@
 
 /* Handle default styles of some elements */
 
+body {
+    margin: 0px;
+}
+
 html {
     font-family: "Roboto Condensed", "sans-serif";
     font-size: 18px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    padding: 0.5em 0em;
+    width: 100%;
 }
 
 a {
@@ -13,6 +24,7 @@ a {
 
 ul {
     padding: 0px;
+    margin: 0em;
 }
 
 /* define structure of basic components */
@@ -92,14 +104,11 @@ ul {
 /* card element structure */
 
 .card {
-    border-left: 10px solid;
     transition: 0.3s;
-    border-color: #0000ee;
-    color: #0000ee;
 }
 
 .card:hover {
-    border-left: 13px solid;
+    border-left: 10px solid;
     padding-left: 1em;
     transition: 0.3s;
 }

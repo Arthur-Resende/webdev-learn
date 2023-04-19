@@ -1,0 +1,54 @@
+:root {
+    --background: #151515;
+    --layer-1: #202020;
+    --layer-2: #252525;
+    --blue: #4080e0;
+    --green: #50d050;
+    --red: #d05050;
+    --text: #c0c0c0;
+}
+
+html {
+    color: var(--text);
+}
+
+nav {
+    background-color: var(--layer-1);
+}
+
+a {
+    color: var(--blue);
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #60a0ff;
+    transition: 0.3s;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.type-important {
+    border-color: var(--red);
+    color: var(--red);
+}
+
+.type-trivia {
+    border-color: var(--green);
+    color: var(--green);
+}
+
+.card {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.highlight {
+    background-color: var(--layer-1);
+}
+
+.card:hover {
+    background-color: var(--layer-2);
+}
