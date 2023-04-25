@@ -1,0 +1,26 @@
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-left: 10px solid;
+    padding-left: 1em;
+    transition: 0.3s;
+}
+
+.block-card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block-card {
+    display: block;
+    width: 25%;
+    max-width: 200px;
+    min-height: 100px;
+}
+
+.block-card h3 {
+    border-bottom: solid 1px;
+    margin: 0em 0em 0.2em 0em;
+}

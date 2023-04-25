@@ -1,54 +1,74 @@
 :root {
-    --background: #151515;
-    --layer-1: #202020;
-    --layer-2: #252525;
-    --blue: #4080e0;
-    --green: #50d050;
-    --red: #d05050;
-    --text: #c0c0c0;
+    --dark-mode-background: #151515;
+    --dark-mode-layer-1: #202020;
+    --dark-mode-layer-2: #252525;
+    --dark-mode-blue: #4080e0;
+    --dark-mode-green: #50d050;
+    --dark-mode-red: #d05050;
+    --dark-mode-text: #c0c0c0;
+    --dark-mode-light-gray: #e0e0e0;
 }
 
-html {
-    color: var(--text);
+html.dark-mode {
+    color: var(--dark-mode-text);
 }
 
-nav {
-    background-color: var(--layer-1);
+nav.dark-mode {
+    background-color: var(--dark-mode-layer-1);
 }
 
-a {
-    color: var(--blue);
+a.dark-mode {
+    color: var(--dark-mode-blue);
     transition: 0.3s;
 }
 
-a:hover {
+a:hover.dark-mode {
     color: #60a0ff;
     transition: 0.3s;
 }
 
-body {
-    background-color: var(--background);
+body.dark-mode {
+    background-color: var(--dark-mode-background);
 }
 
-.type-important {
-    border-color: var(--red);
-    color: var(--red);
+.type-important.dark-mode {
+    border-color: var(--dark-mode-red);
+    color: var(--dark-mode-red);
 }
 
-.type-trivia {
-    border-color: var(--green);
-    color: var(--green);
+.type-trivia.dark-mode {
+    border-color: var(--dark-mode-green);
+    color: var(--dark-mode-green);
 }
 
-.card {
-    border-color: var(--blue);
-    color: var(--blue);
+.card.dark-mode {
+    border-color: var(--dark-mode-blue);
+    color: var(--dark-mode-blue);
 }
 
-.highlight {
-    background-color: var(--layer-1);
+.highlight.dark-mode {
+    background-color: var(--dark-mode-layer-1);
 }
 
-.card:hover {
-    background-color: var(--layer-2);
+.card:hover.dark-mode {
+    background-color: var(--dark-mode-layer-2);
+    box-shadow: none;
+}
+
+.toggle.dark-mode {
+    background-color: var(--dark-mode-background);
+}
+
+.toggle-ball.dark-mode {
+    background-color: var(--text);
+    transition: 0.3s;
+}
+
+.toggle-background.dark-mode {
+    background-color: var(--light-blue);
+}
+
+.toggle:hover .toggle-ball.dark-mode {
+    background-color: var(--dark-mode-light-gray);
+    transition: 0.3s;
 }

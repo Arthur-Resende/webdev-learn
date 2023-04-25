@@ -1,0 +1,27 @@
+.toggle {
+    box-sizing: border-box;
+    height: 30px;
+    width: 50px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.toggle-background {
+    display: flex;
+    margin: 4px;
+    width: 42px;
+    height: 22px;
+    border-radius: 11px;
+}
+
+.toggle-ball {
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.active {
+    justify-content: end;
+    transition: 0.3s;
+}
