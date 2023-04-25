@@ -1,3 +1,9 @@
+/* import light mode themes */
+
+@import url('./components/colors/light-mode/toggle.css');
+@import url('./components/colors/light-mode/highlight.css');
+@import url('./components/colors/light-mode/card.css');
+
 :root {
     --background: #ffffff;
     --layer-1: #f5f5f5;
@@ -29,57 +35,4 @@ a:hover {
 
 body {
     background-color: var(--background);
-}
-
-.type-important {
-    border-color: var(--red);
-    color: var(--red);
-}
-
-.type-trivia {
-    border-color: var(--green);
-    color: var(--green);
-}
-
-.card {
-    border-color: var(--blue);
-    color: var(--blue);
-}
-
-.highlight {
-    background-color: var(--layer-1);
-}
-
-.card:hover {
-    box-shadow: 0px 0px 3px 3px var(--shadow);
-}
-
-.toggle {
-    background-color: var(--text);
-}
-
-.toggle-background {
-    background-color: var(--layer-1);
-}
-
-.toggle-ball {
-    background-color: var(--text);
-    transition: 0.3s;
-}
-
-.toggle:hover .toggle-ball {
-    background-color: var(--light-blue);
-    transition: 0.3s;
-}
-
-.active {
-    background-color: var(--light-blue);
-}
-
-.toggle .active .toggle-ball {
-    background-color: var(--background);
-}
-
-.toggle:hover .active .toggle-ball {
-    background-color: var(--text);
 }

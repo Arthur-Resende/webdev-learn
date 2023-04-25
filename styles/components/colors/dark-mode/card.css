@@ -1,0 +1,9 @@
+.card.dark-mode {
+    border-color: var(--dark-mode-blue);
+    color: var(--dark-mode-blue);
+}
+
+.card:hover.dark-mode {
+    background-color: var(--dark-mode-layer-2);
+    box-shadow: none;
+}

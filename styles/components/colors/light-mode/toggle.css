@@ -1,0 +1,29 @@
+.toggle {
+    background-color: var(--text);
+}
+
+.toggle-background {
+    background-color: var(--layer-1);
+}
+
+.toggle-ball {
+    background-color: var(--text);
+    transition: 0.3s;
+}
+
+.toggle:hover .toggle-ball {
+    background-color: var(--light-blue);
+    transition: 0.3s;
+}
+
+.active {
+    background-color: var(--light-blue);
+}
+
+.toggle .active .toggle-ball {
+    background-color: var(--background);
+}
+
+.toggle:hover .active .toggle-ball {
+    background-color: var(--text);
+}

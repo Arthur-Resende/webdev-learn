@@ -1,3 +1,10 @@
+/* import component themes */
+
+@import url('./components/colors/dark-mode/toggle.css');
+@import url('./components/colors/dark-mode/highlight.css');
+@import url('./components/colors/dark-mode/card.css');
+
+
 :root {
     --dark-mode-background: #151515;
     --dark-mode-layer-1: #202020;
@@ -29,46 +36,4 @@ a:hover.dark-mode {
 
 body.dark-mode {
     background-color: var(--dark-mode-background);
-}
-
-.type-important.dark-mode {
-    border-color: var(--dark-mode-red);
-    color: var(--dark-mode-red);
-}
-
-.type-trivia.dark-mode {
-    border-color: var(--dark-mode-green);
-    color: var(--dark-mode-green);
-}
-
-.card.dark-mode {
-    border-color: var(--dark-mode-blue);
-    color: var(--dark-mode-blue);
-}
-
-.highlight.dark-mode {
-    background-color: var(--dark-mode-layer-1);
-}
-
-.card:hover.dark-mode {
-    background-color: var(--dark-mode-layer-2);
-    box-shadow: none;
-}
-
-.toggle.dark-mode {
-    background-color: var(--dark-mode-background);
-}
-
-.toggle-ball.dark-mode {
-    background-color: var(--text);
-    transition: 0.3s;
-}
-
-.toggle-background.dark-mode {
-    background-color: var(--light-blue);
-}
-
-.toggle:hover .toggle-ball.dark-mode {
-    background-color: var(--dark-mode-light-gray);
-    transition: 0.3s;
 }
