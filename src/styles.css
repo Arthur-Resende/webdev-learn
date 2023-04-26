@@ -1,8 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Roboto+Condensed&display=swap');
-@import url('./components/toggle.css');
-@import url('./components/highlight.css');
-@import url('./components/card.css');
+@import url('./app/styles/components/toggle.css');
+@import url('./app/styles/components/highlight.css');
+@import url('./app/styles/components/card.css');
 /* Handle default styles of some elements */
+
+:root {
+    --background: #ffffff;
+    --layer-1: #f5f5f5;
+    --shadow: #e5e5e5;
+    --blue: #2030d0;
+    --light-blue: #80a0f0;
+    --green: #10c020;
+    --red: #c02010;
+    --text: #303030;
+    --dark-mode-background: #151515;
+    --dark-mode-layer-1: #202020;
+    --dark-mode-layer-2: #252525;
+    --dark-mode-blue: #4080e0;
+    --dark-mode-green: #50d050;
+    --dark-mode-red: #d05050;
+    --dark-mode-text: #c0c0c0;
+    --dark-mode-light-gray: #e0e0e0;
+}
 
 body {
     margin: 0px;
