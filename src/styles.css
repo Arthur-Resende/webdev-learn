@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Roboto+Condensed&display=swap');
-@import url('./app/styles/components/toggle.css');
-@import url('./app/styles/components/highlight.css');
-@import url('./app/styles/components/card.css');
-/* Handle default styles of some elements */
-
 :root {
+
+    /* light mode colors */
     --background: #ffffff;
     --layer-1: #f5f5f5;
     --shadow: #e5e5e5;
@@ -13,6 +9,8 @@
     --green: #10c020;
     --red: #c02010;
     --text: #303030;
+
+    /* dark mode colors */
     --dark-mode-background: #151515;
     --dark-mode-layer-1: #202020;
     --dark-mode-layer-2: #252525;
@@ -23,6 +21,8 @@
     --dark-mode-light-gray: #e0e0e0;
 }
 
+/* Handle default styles of some elements */
+
 body {
     margin: 0px;
 }
@@ -32,65 +32,6 @@ html {
     font-size: 18px;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    padding: 0.5em 0em;
-    width: 100%;
-}
-
 a {
     text-decoration: none;
-}
-
-ul {
-    padding: 0px;
-    margin: 0em;
-}
-
-/* define structure of basic components */
-
-.global-container {
-    width: 96%;
-    max-width: 900px;
-    margin: 20px auto;
-}
-
-.text {
-    line-height: 1.5;
-    margin: 1em 0.5em;
-}
-
-.header {
-    font-family: "Dongle", "sans-serif";
-    line-height: 1;
-}
-
-.title {
-    margin: 1em 0em;
-    width: 100%;
-    text-align: center;
-    font-size: 3em;
-}
-
-.subtitle {
-    font-size: 2em;
-    margin: 0em 0em 0.35em 0em;
-    border-bottom: 1px solid;
-}
-
-.navbar {
-    width: fit-content;
-}
-
-.nav-link {
-    list-style-type: none;
-    display: inline;
-    padding: 0 1em;
-}
-
-.nav-container {
-    display: flex;
-    margin: 0em auto;
-    justify-content: center;
 }

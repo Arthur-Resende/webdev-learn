@@ -8,20 +8,6 @@ html {
     color: var(--text);
 }
 
-nav {
-    background-color: var(--text);
-}
-
-a {
-    color: var(--background);
-    transition: 0.3s;
-}
-
-a:hover {
-    color: var(--light-blue);
-    transition: 0.3s;
-}
-
 body {
     background-color: var(--background);
 }

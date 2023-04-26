@@ -1,0 +1,40 @@
+nav {
+    position: fixed;
+    top: 0;
+    padding: 0.5em 0em;
+    width: 100%;
+}
+
+ul {
+    padding: 0px;
+    margin: 0em;
+    width: fit-content;
+}
+
+.nav-link {
+    list-style-type: none;
+    display: inline;
+    padding: 0 1em;
+}
+
+.nav-container {
+    display: flex;
+    margin: 0em auto;
+    justify-content: center;
+}
+
+/* light mode colors */
+
+nav {
+    background-color: var(--text);
+}
+
+a {
+    color: var(--background);
+    transition: 0.3s;
+}
+
+a:hover {
+    color: var(--light-blue);
+    transition: 0.3s;
+}
