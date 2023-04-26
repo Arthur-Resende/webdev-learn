@@ -33,6 +33,17 @@ Template
 - change 3
 -->
 
+## [1.0.0] - 2023-04-26
+
+### Added
+- Card, highlight and toggle css files for components
+- Dark-mode and light-mode themes css files for each component
+- Script for toggling dark and light mode
+
+### Changed
+- Base-styles css file split into base-styles, card, highligt and toggle css files
+- Dark-mode and light-mode css files split into dark and light mode files for each component
+
 ## [0.0.1] - 2023-04-13
 
 ### Added
@@ -40,5 +51,5 @@ Template
 - README.md contains layout with relevant questions about the repository
 - .gitignore keeps .vscode files from reaching the repository
 - dark-mode, light-mode, and base-styles css files
-- index, materias, and plano html pages
+- index html page
 - script for toggling dark and light mode, contains
