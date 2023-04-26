@@ -20,4 +20,6 @@ import { AppRoutes } from 'src/app.routes';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  darkmode: boolean = false
+}

@@ -20,20 +20,6 @@ html.dark-mode {
     color: var(--dark-mode-text);
 }
 
-nav.dark-mode {
-    background-color: var(--dark-mode-layer-1);
-}
-
-a.dark-mode {
-    color: var(--dark-mode-blue);
-    transition: 0.3s;
-}
-
-a:hover.dark-mode {
-    color: #60a0ff;
-    transition: 0.3s;
-}
-
 body.dark-mode {
     background-color: var(--dark-mode-background);
 }

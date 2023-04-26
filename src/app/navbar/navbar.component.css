@@ -25,16 +25,32 @@ ul {
 
 /* light mode colors */
 
-nav {
+nav.lightmode {
     background-color: var(--text);
 }
 
-a {
+a.lightmode {
     color: var(--background);
     transition: 0.3s;
 }
 
-a:hover {
+a:hover.lightmode {
     color: var(--light-blue);
+    transition: 0.3s;
+}
+
+/* dark mode colors */
+
+nav.darkmode {
+    background-color: var(--dark-mode-layer-1);
+}
+
+a.darkmode {
+    color: var(--dark-mode-blue);
+    transition: 0.3s;
+}
+
+a:hover.darkmode {
+    color: #60a0ff;
     transition: 0.3s;
 }
