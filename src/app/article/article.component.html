@@ -1,0 +1,14 @@
+<h1 class="header title">
+    {{ page.title }}
+</h1>
+
+<section class="global-container" *ngFor="let section of page.sections">
+
+    <h2 class="header subtitle">
+        {{ section.title }}
+    </h2>
+
+    <p class="text" *ngFor="let paragraph of section.paragraphs">
+        {{ paragraph }}
+    </p>
+</section>
