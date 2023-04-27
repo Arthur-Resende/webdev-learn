@@ -23,34 +23,18 @@ ul {
     justify-content: center;
 }
 
-/* light mode colors */
-
-nav.lightmode {
-    background-color: var(--text);
-}
-
-a.lightmode {
-    color: var(--background);
-    transition: 0.3s;
-}
-
-a:hover.lightmode {
-    color: var(--light-blue);
-    transition: 0.3s;
-}
-
 /* dark mode colors */
 
-nav.darkmode {
-    background-color: var(--dark-mode-layer-1);
+nav {
+    background-color: var(--dark-mode-blue);
 }
 
-a.darkmode {
-    color: var(--dark-mode-blue);
+a {
+    color: var(--dark-mode-light-gray);
     transition: 0.3s;
 }
 
-a:hover.darkmode {
-    color: #60a0ff;
+a:hover {
+    color: white;
     transition: 0.3s;
 }
