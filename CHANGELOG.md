@@ -33,6 +33,31 @@ Template
 - change 3
 -->
 
+
+## [2.2.0] 2023-04-27
+
+### Added
+- Article component separated
+
+## [2.1.1] 2023-04-27
+
+### Removed
+- Remove toggle from navbar
+
+## [2.1.0] 2023-04-27
+
+### Changed
+- Navbar component separated
+- Add toggle theme to navbar component
+
+## [2.0.0] 2023-04-27
+
+### Added
+- index-page component as a placeholder for all files
+
+### Changed
+- Switched to Angular framework
+
 ## [1.0.0] - 2023-04-26
 
 ### Added
