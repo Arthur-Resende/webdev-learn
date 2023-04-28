@@ -1,14 +1,36 @@
+<!-- Show page title -->
 <h1 class="header title">
     {{ page.title }}
 </h1>
 
+<!-- Main article -->
 <section class="global-container" *ngFor="let section of page.sections">
 
+    <!-- for each section, have a subtitle -->
     <h2 class="header subtitle">
         {{ section.title }}
     </h2>
 
-    <p class="text" *ngFor="let paragraph of section.paragraphs">
-        {{ paragraph }}
-    </p>
+    <!-- write each paragraph -->
+    <div *ngFor="let paragraph of section.paragraphs">
+        <p *ngFor="let text of paragraph.text">
+            {{ text }}
+        </p>
+
+        <!-- after paragraph, have a highlight -->
+        <div *ngIf="paragraph.highlights">
+            <div *ngFor="let highlight of paragraph.highlights">
+
+                <!-- check if highligh is of type important or trivia, create element accordingly -->
+                <app-important-highlight *ngIf="highlight.type === 'important'"
+                    [text]="highlight.text">
+                </app-important-highlight>
+
+                <app-trivia-highlight *ngIf="highlight.type === 'trivia'"
+                    [text]="highlight.text">
+                </app-trivia-highlight>
+
+            </div>
+        </div>
+    </div>
 </section>

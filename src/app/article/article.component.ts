@@ -15,7 +15,13 @@ export class ArticleComponent {
     title: 'loading',
     sections: [{
         title: '',
-        paragraphs: []
+        paragraphs: [{
+          text: [],
+          highlights: [{
+            text: '',
+            type: ''
+          }]
+        }]
     }]
   };
 

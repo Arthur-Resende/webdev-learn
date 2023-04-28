@@ -2,10 +2,25 @@
     "title": "Welcome to my humble page, come on in!",
     "sections": [{
         "title": "What is the purpose of this place?",
-        "paragraphs": [
-            "This website was built to get some familiarity back with basic front-end tools, while learning GIT best practices along the way. In order to get some practice (and to really nail my understanding down) I'll write a bunch of artiles and publish them here as well.",
-            "Hope this is as userful to you as is was for me. Once I'm done building this website, I'll study other stuff, like angular development and production line best practices.",
-            "Feel free to stay for as long as you want!"
-        ]
+        "paragraphs": [{
+            "text": [
+                "This website was built to get some familiarity back with basic front-end tools, while learning GIT best practices along the way. In order to get some practice (and to really nail my understanding down) I'll write a bunch of artiles and publish them here as well."
+            ],
+            "highlights": [{
+                "text": "This is an important highlight",
+                "type": "important"
+            },
+            {
+                "text": "This is an trivia highlight, did you know this information is getting fetched from a json file?",
+                "type": "trivia"
+            }]
+        },
+        {
+            "text": [
+                "Hope this is as userful to you as is was for me. Once I'm done building this website, I'll study other stuff, like angular development and production line best practices.",
+                "Feel free to stay for as long as you want!"
+            ],
+            "highlights": []
+        }]
     }]
 }

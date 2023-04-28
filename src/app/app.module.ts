@@ -1,29 +1,35 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { IndexPageComponent } from './index-page/index-page.component';
-import { RouterModule } from '@angular/router';
-import { AppRoutes } from 'src/app.routes';
 import { ArticleComponent } from './article/article.component';
+import { ImportantHighlightComponent } from './important-highlight/important-highlight.component';
+
+import { AppRoutes } from 'src/app.routes';
+import { TriviaHighlightComponent } from './trivia-highlight/trivia-highlight.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     IndexPageComponent,
-    ArticleComponent
+    ArticleComponent,
+    ImportantHighlightComponent,
+    TriviaHighlightComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(AppRoutes),
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { 
-  darkmode: boolean = false
+export class AppModule {
 }
