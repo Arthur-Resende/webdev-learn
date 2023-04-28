@@ -10,6 +10,10 @@ export interface BlogPage {
             }]|undefined,
             cards: [{
                 text: string
+            }]|undefined,
+            blockCards: [{
+                title: string,
+                text: string
             }]|undefined
         }]
     }]

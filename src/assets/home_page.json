@@ -22,6 +22,18 @@
             ],
             "cards": [{
                 "text": "hello world"
+            }],
+            "blockCards": [{
+                "title": "This is a block card",
+                "text": "This is the block card description, it can hold a bit more text and is good for giving a better idea of what the page means."
+            },
+            {
+                "title": "This is a block card",
+                "text": "This is the block card description, it can hold a bit more text and is good for giving a better idea of what the page means."
+            },
+            {
+                "title": "This is a block card",
+                "text": "This is the block card description, it can hold a bit more text and is good for giving a better idea of what the page means."
             }]
         }]
     }]

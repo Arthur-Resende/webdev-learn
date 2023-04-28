@@ -41,5 +41,12 @@
                 </app-card>
             </div>
         </div>
+
+        <div *ngIf="paragraph.blockCards">
+            <app-block-card
+                [cards]="paragraph.blockCards">
+            </app-block-card>
+        </div>
+
     </div>
 </section>

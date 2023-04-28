@@ -17,13 +17,9 @@ export class ArticleComponent {
         title: '',
         paragraphs: [{
           text: [],
-          highlights: [{
-            text: '',
-            type: ''
-          }],
-          cards: [{
-            text: ''
-          }]
+          highlights: undefined,
+          cards: undefined,
+          blockCards: undefined
         }]
     }]
   };
