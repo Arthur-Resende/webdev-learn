@@ -1,42 +1,56 @@
 # Basic static website
 
-Static website with 3 page, simple css and a single script for toggling dark and light mode. Built with the objective of practicing fundamentals of front-end development and git best-practices.
+Static website with simple css. Built with the objective of practicing fundamentals of front-end development, Angular fundamentals, and git best-practices.
 
-## Getting Started
+## :rocket: Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Installing
+### :page_facing_up: Requirenments
 
-To clone this repository, git is reccomended, [Download git.](https://git-scm.com/downloads)
-Once git is installed, do the following:
+- Git
+- NodeJS
+- Angular
+
+### :hammer: Installation
 
 ```
 # Clone this repository
-git clone https://github.com/Arthur-Resende/webdev-learn.git
-```
+git clone https://github.com/Arthur-Resende/webdev-learn.git <your_dir>
 
-Optionally, Python module http.server serves the root directory as a simple http server. [Download python.](https://www.python.org/downloads/)
-Once Python is installed, do the following:
-```
-# Go to your project directory
-cd <website-repository> # Make sure to replace <website-repository> with the path to the root directory of if this code
+# Go to <your_dir>
+cd <your_dir>
 
-# Serve current repository
-python3 -m http.server -d src
+# Install node dependencies
+npm install
 
-# If the code above does not work, try this:
-python -m http.server -d src
+# serve a development environment
+ng serve
 ```
 
 You should see an output similar to this:
 
 ```
-$ python -m http.server
-Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   3.36 MB |
+polyfills.js          | polyfills     | 314.29 kB |
+styles.css, styles.js | styles        | 210.59 kB |
+main.js               | main          |  53.16 kB |
+runtime.js            | runtime       |   6.53 kB |
+
+                      | Initial Total |   3.93 MB
+
+Build at: 2023-04-28T16:37:51.664Z - Hash: 66c04fffc429d94f - Time: 6996ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+√ Compiled successfully.
 ```
 
-Open your browser on http://localhost:8000/ and you should see the website.
+Open your browser on http://localhost:4200/ and you should see the website.
 
 <!-- 
 ## Running the tests
