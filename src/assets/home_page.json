@@ -20,7 +20,9 @@
                 "Hope this is as userful to you as is was for me. Once I'm done building this website, I'll study other stuff, like angular development and production line best practices.",
                 "Feel free to stay for as long as you want!"
             ],
-            "highlights": []
+            "cards": [{
+                "text": "hello world"
+            }]
         }]
     }]
 }

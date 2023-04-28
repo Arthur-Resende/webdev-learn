@@ -20,6 +20,9 @@ export class ArticleComponent {
           highlights: [{
             text: '',
             type: ''
+          }],
+          cards: [{
+            text: ''
           }]
         }]
     }]

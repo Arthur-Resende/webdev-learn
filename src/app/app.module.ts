@@ -12,6 +12,7 @@ import { ImportantHighlightComponent } from './important-highlight/important-hig
 
 import { AppRoutes } from 'src/app.routes';
 import { TriviaHighlightComponent } from './trivia-highlight/trivia-highlight.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TriviaHighlightComponent } from './trivia-highlight/trivia-highlight.co
     IndexPageComponent,
     ArticleComponent,
     ImportantHighlightComponent,
-    TriviaHighlightComponent
+    TriviaHighlightComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

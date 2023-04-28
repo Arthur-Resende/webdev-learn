@@ -7,6 +7,9 @@ export interface BlogPage {
             highlights: [{
                 text: string,
                 type: string
+            }]|undefined,
+            cards: [{
+                text: string
             }]|undefined
         }]
     }]
