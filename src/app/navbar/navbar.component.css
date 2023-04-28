@@ -26,11 +26,11 @@ ul {
 /* dark mode colors */
 
 nav {
-    background-color: var(--dark-mode-blue);
+    background-color: var(--blue);
 }
 
 a {
-    color: var(--dark-mode-light-gray);
+    color: var(--light-gray);
     transition: 0.3s;
 }
 

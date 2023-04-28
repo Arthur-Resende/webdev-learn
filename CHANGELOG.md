@@ -33,6 +33,14 @@ Template
 - change 3
 -->
 
+## [2.3.0] 2023-04-27
+
+### Added
+- Card and block card component separated
+- Important and Trivia highlight components separated
+
+### Removed
+- index-page placeholder component
 
 ## [2.2.0] 2023-04-27
 
