@@ -19,3 +19,14 @@
     border-color: #ee0000;
     color: #ee0000;
 }
+
+/* handle colors of highlight component */
+
+.type-important {
+    border-color: var(--red);
+    color: var(--red);
+}
+
+.highlight {
+    background-color: var(--layer-1);
+}

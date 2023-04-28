@@ -21,7 +21,7 @@
                 "Feel free to stay for as long as you want!"
             ],
             "cards": [{
-                "text": "hello world"
+                "text": "This is an inline card, good for inline links for external articles"
             }],
             "blockCards": [{
                 "title": "This is a block card",

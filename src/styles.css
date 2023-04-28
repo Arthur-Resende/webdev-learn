@@ -3,14 +3,14 @@
 :root {
 
     /* dark mode colors */
-    --dark-mode-background: #151515;
-    --dark-mode-layer-1: #202020;
-    --dark-mode-layer-2: #252525;
-    --dark-mode-blue: #4080e0;
-    --dark-mode-green: #50d050;
-    --dark-mode-red: #d05050;
-    --dark-mode-text: #c0c0c0;
-    --dark-mode-light-gray: #d0d0d0;
+    --background: #151515;
+    --layer-1: #202020;
+    --layer-2: #252525;
+    --blue: #4080e0;
+    --green: #50d050;
+    --red: #d05050;
+    --text: #c0c0c0;
+    --light-gray: #d0d0d0;
 }
 
 /* Handle default styles of some elements */
@@ -26,4 +26,14 @@ html {
 
 a {
     text-decoration: none;
+}
+
+/* set colors of basic components */
+
+html {
+    color: var(--text);
+}
+
+body {
+    background-color: var(--background);
 }

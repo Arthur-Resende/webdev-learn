@@ -21,3 +21,16 @@
     padding-left: 1em;
     transition: 0.3s;
 }
+
+/* handle colors of card components */
+
+.card {
+    border-color: var(--blue);
+    color: var(--blue);
+    background-color: var(--layer-1);
+}
+
+.card:hover {
+    background-color: var(--layer-2);
+    box-shadow: none;
+}

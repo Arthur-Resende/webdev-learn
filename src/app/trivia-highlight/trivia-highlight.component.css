@@ -19,3 +19,14 @@
     border-color: #00c100;
     color: #00c100;
 }
+
+/* handle colors of highlight component */
+
+.type-trivia {
+    border-color: var(--green);
+    color: var(--green);
+}
+
+.highlight {
+    background-color: var(--layer-1);
+}
