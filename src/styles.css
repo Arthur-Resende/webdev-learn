@@ -1,14 +1,6 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Roboto+Condensed&display=swap');
 
-    /* light mode colors */
-    --background: #ffffff;
-    --layer-1: #f5f5f5;
-    --shadow: #e5e5e5;
-    --blue: #2030d0;
-    --light-blue: #80a0f0;
-    --green: #10c020;
-    --red: #c02010;
-    --text: #303030;
+:root {
 
     /* dark mode colors */
     --dark-mode-background: #151515;
@@ -18,7 +10,7 @@
     --dark-mode-green: #50d050;
     --dark-mode-red: #d05050;
     --dark-mode-text: #c0c0c0;
-    --dark-mode-light-gray: #e0e0e0;
+    --dark-mode-light-gray: #d0d0d0;
 }
 
 /* Handle default styles of some elements */
